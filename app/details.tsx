@@ -1,14 +1,14 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
 
-const Card = () => {
+function Card() {
   return (
     <View style={styles.card}>
       <Text style={styles.title}>카드 제목</Text>
       <Text style={styles.description}>이곳에 카드 설명을 적어주세요.</Text>
     </View>
   );
-};
+}
 
 const styles = StyleSheet.create({
   card: {
