@@ -1,3 +1,4 @@
+import {Text, View} from 'react-native';
 import styled from '@emotion/native';
 import {Typography} from 'dooboo-ui';
 import {Stack} from 'expo-router';
@@ -23,6 +24,9 @@ export default function Details(): JSX.Element {
         }}
       />
       <Content>
+        <View>
+          <Text>안녕하세요</Text>
+        </View>
         <Typography.Body1>{t('DETAILS')}</Typography.Body1>
       </Content>
     </Container>
